@@ -1,0 +1,146 @@
+body {
+  background: #005500;
+  margin: 0;
+  padding: 0;
+  /*font-family: Arial, sans-serif;*/
+  font-family: 'Verdana', sans-serif;
+}
+
+main {
+  width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #efefef;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid #005500;
+}
+
+.logo {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 10px 0;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 12px 15px;
+}
+
+nav a:hover, nav a:focus {
+  background: #009900;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+nav a.active {
+  background: #005500;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+.feature {
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.feature h1 {
+  margin: 0 0 00 10px;
+}
+
+.feature p {
+  font-size: 1.2em;
+  margin: 15px 0 15px 0;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px;
+  min-width: 100px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  background: #005500;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+a.button:hover, a.button:focus {
+  background: #00bb00;
+}
+
+.columns {
+  width: 100%;
+}
+
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.content {
+  line-height: 1.5em;
+}
+
+.content a, footer a {
+  color: #00cc00;
+  text-decoration: none;
+}
+
+.content a:hover, .content a:focus, footer a:hover, footer a:focus {
+  color: #005500;
+  border-bottom: 1px dotted #005500;
+}
+
+.content h2 {
+  font-weight: normal;
+  font-size: 1.8em;
+  margin: 15px 0 5px 0;
+}
+
+.content h3 {
+  font-weight: normal;
+  font-size: 1.4em;
+  margin: 15px 0 5px 0;
+}
+
+.content ul {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+}
+
+.content ul li:before {
+  content: "";
+}
+
+footer {
+  padding: 15px;
+  margin: 20px 0 0 0;
+  border-top: 1px solid #005500;
+  text-align: center;
+  color: #999;
+  line-height: 24px;
+}
